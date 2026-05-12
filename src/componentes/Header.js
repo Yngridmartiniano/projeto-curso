@@ -7,11 +7,11 @@ function Header(){
       </div>
       <nav className="headerMenu">
         <ul>
-            <li>Home</li>
-            <li>Curso</li>
-            <li>Diciplinas Básicas</li>
-            <li>Diciplinas Técnicas</li>
-            <li>Equipe</li>
+            <li><Link to = "/"></Link>Home</li>
+            <li><Link to = "/SobreCurso"></Link>Curso</li>
+            <li><Link to = "/DiciplinaTecnicas"></Link>Diciplinas Básicas</li>
+            <li><Link to = "/DiciplinasCurriculares"></Link>Diciplinas Técnicas</li>
+            <li><Link to = "/equipe"></Link>Equipe</li>
         </ul>
       </nav>
        </>
