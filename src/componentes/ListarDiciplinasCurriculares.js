@@ -1,7 +1,7 @@
-function ListarDiciplinasCurriculares() {
+function ListarDisciplinasCurriculares() {
 
     return(
         <H1>Rota inexistente</H1>
     )
 }
-export default ListarDiciplinasCurriculares()
+export default ListarDisciplinasCurriculares()
