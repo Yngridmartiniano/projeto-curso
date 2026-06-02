@@ -1,7 +1,7 @@
 function Error () {
 
     return(
-        <H1>Rota inexistente</H1>
+        <h1>Rota inexistente</h1>
     )
 }
-export default Error()
+export default Error

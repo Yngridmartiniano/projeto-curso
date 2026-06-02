@@ -5,10 +5,13 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Error from "./componentes/Error";
 import Equipe from "./componentes/Equipe";
-import DiciplinasCurriculares from "./componentes/DiciplinasCurriculares";
-import DiciplinasTecnicas from "./componentes/DiciplinasTecnicas";
 import SobreCurso from "./componentes/SobreCurso";
-import ListarDiciplinasCurriculares from "./componentes/ListarDiciplinasCurriculares";
+
+import DisciplinasCurriculares from "./componentes/DisciplinasCurriculares";
+import DisciplinasTecnicas from "./componentes/DisciplinasTecnicas";
+
+import ListarDisciplinasTecnicas from "./componentes/ListarDisciplinasTecnicas";
+import ListarDisciplinasCurriculares from "./componentes/ListarDisciplinasCurriculares";
 
 function App() {
   return (
@@ -16,14 +19,14 @@ function App() {
       <>
         <Header />
         <Routes >
-          <Route path="*" element={<Erro />} />
+          <Route path="*" element={<Error />} />
           <Route path="/" element={<Main />} />
           <Route path="/SobreCurso" element={<SobreCurso />} />
-          <Route path="/DiciplinaTecnicas" element={<DiciplinaTecnicas />} />
-          <Route path="/DiciplinasCurriculares" element={<DiciplinasCurriculares />} />
+          <Route path="/DisciplinasTecnicas" element={<DisciplinasTecnicas />} />
+          <Route path="/DisciplinasCurriculares" element={<DisciplinasCurriculares />} />
 
-          <Route path="/DiciplinasTecnicas/:id" element={<ListarDiciplinasTecnicas />} />
-          <Route path="/DiciplinasCurriculares/:id" element={<ListarDiciplinasCurriculares />} />
+          <Route path="/ListarDisciplinasTecnicas/:id" element={<ListarDisciplinasTecnicas />} />
+          <Route path="/ListarDisciplinasCurriculares/:id" element={<ListarDisciplinasCurriculares />} />
 
           <Route path="/equipe" element={<Equipe />} />
 

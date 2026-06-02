@@ -1,7 +1,7 @@
 function SobreCurso() {
 
     return(
-        <H1>Rota inexistente</H1>
+        <h1>curso</h1>
     )
 }
-export default SobreCurso()
+export default SobreCurso

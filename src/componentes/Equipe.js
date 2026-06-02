@@ -1,7 +1,7 @@
 function Equipe() {
 
     return(
-        <H1>Rota inexistente</H1>
+        <h1>87987987978</h1>
     )
 }
-export default Equipe()
+export default Equipe
