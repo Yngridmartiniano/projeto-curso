@@ -38,6 +38,14 @@ header .headerMenu li{
   font-size: 25px;
 }
 
+header .headerMenu li a{
+  color: #333;
+  cursor: pointer;
+}
+
+header .headerMenu li a:hover{
+  color: red;
+}
 /*footer*/
 
 footer{
@@ -46,7 +54,7 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #dcdcdc; 
+  background-color: #fbbbf6; 
 }
 footer .menuFooter{
 width: 20%;
@@ -59,13 +67,22 @@ footer .menuFooter li{
   height: 25px;
 }
 
+footer .menuFooter li a{
+  color: #333;
+  border-bottom: 1px dotted #f2efef;
+}
+
+footer .menuFooter li a:hover{
+  color: red;
+}
+
 footer .credenciais{
-width: 80%;
+width: 60%;
 text-align: center;
 }
 
 footer .credenciais h1{
-  color: aqua;
+  color: rgb(8, 8, 8);
   font-size: 20px;
 
 }
@@ -75,7 +92,7 @@ footer .credenciais h1{
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: aquamarine;
+  background-color: rgb(220, 179, 253);
   border: 1px sold rgb(37, 92, 74) ;
   border-radius: 5px;
 
@@ -85,7 +102,7 @@ footer .credenciais h1{
 
 }
 
-.disciplina .headerDisciplinas h1{
+.disciplinas .headerDisciplinas h1{
   width: 100%;
   margin-left: 40px;
   font-size: 2em;
@@ -93,21 +110,24 @@ footer .credenciais h1{
 
 }
 
-.disciplina .contentDisciplinas{
-  width: 100%;
-  
-
+.disciplinas .contentDisciplinas{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin:0 auto;
+  gap:25px;
 }
 
-.disciplina .contentDisciplinas article{
+.disciplinas .contentDisciplinas article{
   display: flex;
+  flex-direction: column;
   width: 25%;
   align-items: center;
   justify-content: space-around;
-      
+
       }
   
-  .disciplina .contentDisciplinas article img{
+  .disciplinas .contentDisciplinas article img{
     width: 100%;
     border-radius: 5px;
     border: 1px rgb(238, 169, 247);

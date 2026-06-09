@@ -1,7 +1,7 @@
 function Equipe() {
 
     return(
-        <h1>87987987978</h1>
+        <h1>Equipe</h1>
     )
 }
 export default Equipe
